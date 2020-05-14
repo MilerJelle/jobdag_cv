@@ -1,0 +1,118 @@
+$picheight: 500px;
+$oranje:orange;
+body {
+    background-image: linear-gradient(to right, blue, green);
+    color: white;
+    margin: 10px;
+    nav {
+        text-align: center;
+        margin-bottom: 11px;
+    }
+    //titel + info
+    .container {
+        .row {
+            .col-5 {
+                h1 {
+                    color: orangered;
+                }
+                h2 {
+                    color: $oranje;
+                }
+            }
+            .col-7 {
+                ul {
+                    li {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    //carousel
+    .car {
+        .row {
+            .col-5 {
+                .carouselExampleIndicators {
+                    .carousel-inner {
+                        .pic {}
+                    }
+                }
+            }
+            // profiel
+            .col-7 {
+                h2 {
+                    text-align: center;
+                    color: $oranje;
+                }
+                p {}
+            }
+        }
+    }
+    // persoonlijk
+    .container {
+        .row {
+            .col-5 {
+                h3 {
+                    color: $oranje;
+                    ul {
+                        li {}
+                    }
+                }
+            }
+            //opleiding
+            .col-7 {
+                h3 {
+                    color: $oranje;
+                }
+                p {}
+            }
+        }
+    }
+    //talen          
+    .container {
+        .row {
+            .col-5 {
+                h3 {
+                    color: $oranje;
+                }
+                h5 {}
+                ul {}
+                li {}
+            }
+            //ervaring
+            .col-7 {
+                h3 {
+                    color: $oranje;
+                }
+                p {
+                    li {}
+                }
+            }
+        }
+    }
+    //bijkomende info
+    .container {
+        .row {
+            .col-5 {
+                h3 {}
+                ul {
+                    li {}
+                }
+            }
+            .col-7 {
+                h3 {
+                    color: $oranje;
+                }
+                ul {
+                    li {}
+                }
+            }
+        }
+    }
+    //footer
+    .container {
+        footer {
+            text-align: center;
+        }
+    }
+}
